@@ -1,0 +1,26 @@
+Ver conta:
+git config user.name
+git config user.email
+
+Mudar conta:
+git config user.name "name"
+git config user.email "email"
+
+fazer clone de repositorio:
+git clone "url"
+
+fazer upload de um files que estao numa pasta:
+git init
+git add . - adiciona todos files
+git commit -m "modificacao feita"
+git remote add origin "url do repo"
+git push -u origin "a branch onde o file vai"
+
+
+outros:
+touch "file.ext" - cria file do tipo ext
+git status - ver estado do directorio
+git checkout "branch name" - vai para branch name
+git branch "name" - cria branch name
+git branch --all - mostra todas branches
+git push --set -upstream origin "name of the branch" - push para o remote repositorio
